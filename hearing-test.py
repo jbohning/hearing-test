@@ -30,7 +30,7 @@ class ToneThread(threading.Thread):
                                          rate=rate,
                                          output=True)
         self.direction = 0
-        self.rate = 100
+        self.rate = 50
 
     def set_pitch(self, hertz):
         self.pitch.value = hertz
