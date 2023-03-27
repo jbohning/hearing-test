@@ -5,6 +5,7 @@ from tkinter import font
 import threading
 import time
 
+# Test commit to see if I set up github correctly
 
 class Pitch:
     def __init__(self, pitch_hertz_value):
